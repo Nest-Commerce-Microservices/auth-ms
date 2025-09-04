@@ -3,3 +3,5 @@ export interface JwtPayload {
   email: string;
   name: string;
 }
+
+export type Registered = { sub?: string; iat?: number; exp?: number };
